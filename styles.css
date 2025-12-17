@@ -1,0 +1,31 @@
+body {
+    margin: 20px;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.launch:hover + .hide {
+    display: block;
+    color: #14181d;
+    font-weight: bolder;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background: #e9ecef;
+    color: #14181d;
+    border-bottom: 6px solid #14181d;
+}
